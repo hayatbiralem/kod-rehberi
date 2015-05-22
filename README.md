@@ -8,7 +8,7 @@ Kod Rehberi, esnek, uzun ömürlü ve sürdürülebilir HTML ve CSS standartlar�
 
 ### Çevirmen Notu
 
-Bu proje [Code Guide](https://github.com/mdo/code-guide) projesinin Türkçe çevirisidir. Bazı yerlerde en doğru cümleyi kuramamış ya da bir kelimenin tam karşılığını yazamamış olabilirim. Eğer böyle bir tespitiniz veya çeviriyi iyileştirmek üzere bir öneriniz olursa, lütfen [sorun bildirerek](https://github.com/hayatbiralem/kod-rehberi/issues/new) ya da pull request oluşturarak katkıda bulunun.
+Bu proje [Code Guide](https://github.com/mdo/code-guide) projesinin Türkçe çevirisidir. Bazı yerlerde en doğru cümleyi kuramamış ya da bir kelimenin tam karşılığını yazamamış olabilirim. Eğer böyle bir tespitiniz veya çeviriyi iyileştirmek üzere bir öneriniz olursa, lütfen [bir konu açarak](https://github.com/hayatbiralem/kod-rehberi/issues/new) ya da pull request oluşturarak katkıda bulunun.
 
 Bu güzel çalışmayı bizlerle paylaştığı için [Mark (@mdo) Otto](http://markdotto.com/)'ya teşekkür ediyorum.
 
