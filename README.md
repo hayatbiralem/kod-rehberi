@@ -20,6 +20,6 @@ MIT, copyright 2014, @mdo.
 
 ### Çeviriler
 
-Çeviriler kendi yazarları tarafından geliştirlir ve her zaman orjinal hali kadar güncel olmayabilir. Diğer çevirilere ulaşmak için ya da kendiniz çeviri göndermek için [tıklayınız](https://github.com/mdo/code-guide).
+Çeviriler kendi yazarları tarafından geliştirlir ve her zaman orjinal hali kadar güncel olmayabilir. Diğer çevirilere ulaşmak için ya da kendiniz çeviri göndermek için [tıklayınız](https://github.com/mdo/code-guide#translations).
 
 <3
