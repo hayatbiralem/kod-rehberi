@@ -6,6 +6,10 @@ Kod Rehberi, esnek, uzun ömürlü ve sürdürülebilir HTML ve CSS standartlar�
 
 ---
 
+### Çevirmen Notu
+
+Bu proje [Code Guide](https://github.com/mdo/code-guide) projesinin Türkçe çevirisidir. Bu güzel çalışmayı bizlerle paylaştığı için [Mark Otto](http://markdotto.com/)'ya teşekkür ediyorum.
+
 ### Lisans
 
 MIT, copyright 2014, @mdo.
