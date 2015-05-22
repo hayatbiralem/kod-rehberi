@@ -1,6 +1,6 @@
-name:          Code Guide by @mdo
-description:   Standards for developing flexible, durable, and sustainable HTML and CSS.
-url:           http://codeguide.co
+name:          "@mdo dan Kod Rehberi"
+description:   Esnek, uzun ömürlü ve sürdürülebilir HTML ve CSS standartları.
+url:           http://hayatbiralem.com/kod-rehberi
 
 markdown:      rdiscount
 permalink:     pretty
