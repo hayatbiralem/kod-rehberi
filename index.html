@@ -69,7 +69,7 @@ layout: default
       <li>İki boşluktan oluşan tablar kullanın - bu kullanım, kod formatlayıcıların her ortamda aynı davranmasını garantilemenin tek yoludur.</li>
       <li>Yuvalanmış elemanlar girintili olmalıdır (iki boşlukla).</li>
       <li>Özniteliklerde asla tek tırnak kullanmayın, her zaman çift tırnak kullanın.</li>
-      <li>Kendiliğinen kapanan elemanlarda bölü çizgisini kullanmayın - <a href="http://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">HTML5 kuralları</a> bunun isteğe bağlı olduğunu söylüyor.</li>
+      <li>Kendiliğinen kapanan elemanlarda bölü çizgisini kullanmayın - <a href="http://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">HTML5 şartnamesi</a> bunun isteğe bağlı olduğunu söylüyor.</li>
       <li>İsteğe bağlı kapatma etiketlerini ihmal etmeyin (örneğin <code>&lt;/li&gt;</code> ya da <code>&lt;/body&gt;</code>).</li>
     </ul>
   </div>
@@ -81,7 +81,7 @@ layout: default
 <div class="section" id="html-doctype">
   <div class="col">
     <h3>HTML5 doctype</h3>
-    <p>Enforce standards mode and more consistent rendering in every browser possible with this simple doctype at the beginning of every HTML page.</p>
+    <p>Bu basit doctype ifadesini her HTML sayfasının başında kullanarak mümkün olan tüm tarayıcılarda standart modun kullanılmasını ve daha tutarlı çıktılar üretilmesini sağlamaya çalışın.</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/doctype.html %}{% endhighlight %}
@@ -90,13 +90,13 @@ layout: default
 
 <div class="section" id="html-dil">
   <div class="col">
-    <h3>Language attribute</h3>
-    <p>From the HTML5 spec:</p>
+    <h3>Dil özniteliği</h3>
+    <p>HTML5 şartnamesi diyor ki:</p>
     <blockquote>
-      <p>Authors are encouraged to specify a lang attribute on the root html element, giving the document's language. This aids speech synthesis tools to determine what pronunciations to use, translation tools to determine what rules to use, and so forth.</p>
+      <p>Geliştiricilerin kök html elemanına lang özniteliğini vererek dokümanın dilini belirtmeleri önerilir. Bu kullanım, metni konuşmaya çeviren araçların hangi telaffuzu kullanacaklarını beliremelerine, çeviri araçlarının hangi kuralları kullanacaklarını belirlemelerine, vb., yardımcı olur.</p>
     </blockquote>
-    <p>Read more about the <code>lang</code> attribute <a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">in the spec</a>.</p>
-    <p>Head to Sitepoint for a <a href="http://reference.sitepoint.com/html/lang-codes">list of language codes</a>.</p>
+    <p><a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">Şartnamede</a> <code>lang</code> özniteliği hakkında daha fazla bilgi edinebilirsiniz.</p>
+    <p>Sitepoint'teki <a href="http://reference.sitepoint.com/html/lang-codes">dil kodları listesine</a> göz atabilirsiniz.</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/lang.html %}{% endhighlight %}
