@@ -15,7 +15,7 @@ layout: default
       <li><a href="#html-dil">Dil özniteliği</a></li>
       <li><a href="#html-karakter-kodlamasi">Karakter kodlaması</a></li>
       <li><a href="#html-ie-uyumluluk-modu">Internet Explorer uyumluluk modu</a></li>
-      <li><a href="#html-css-ve-javascript">CSS ve JavaScript dosyalarını dahil etmek</a></li>
+      <li><a href="#html-css-ve-javascript">CSS ve JavaScript yerleştirmeleri</a></li>
       <li><a href="#html-pratiklik">Pratiklik, saflıktan daha önemli</a></li>
       <li><a href="#html-oznitelik-siralamasi">Öznitelik sıralaması</a></li>
       <li><a href="#html-mantiksal-oznitelikler">Mantıksal öznitelikler</a></li>
@@ -118,7 +118,6 @@ layout: default
   <div class="col">
     <h3>Karakter kodlaması</h3>
     <p>Doğru bir karakter kodlaması kullanarak, hızlı ve kolay bir şekilde, içeriğinizin düzgün çıktılanmasını sağlayın. Bunu yaparken (&amp;raquo;, &amp;copy;, gibi) özel HTML öğeleri yerine karşılıkları olan özel karakterleri kullanmak isterseniz, bunları destekleyen bir karakter kodlaması (genellik UTF-8) kullanabilirsiniz.</p>
-
   </div>
   <div class="col">
     {% highlight html %}{% include html/encoding.html %}{% endhighlight %}
@@ -127,13 +126,13 @@ layout: default
 
 <div class="section" id="html-css-ve-javascript">
   <div class="col">
-    <h3>CSS and JavaScript includes</h3>
-    <p>Per HTML5 spec, typically there is no need to specify a <code>type</code> when including CSS and JavaScript files as <code>text/css</code> and <code>text/javascript</code> are their respective defaults.</p>
-    <h4>HTML5 spec links</h4>
+    <h3>CSS ve JavaScript yerleştirmeleri</h3>
+    <p>İlgili HTML5 şartnamelerine göre, CSS ve JavaScript dosyalarını/kodlarını yerleştirirken <code>type</code> özniteliğinin değerini <code>text/css</code> ve <code>text/javascript</code> olarak belirtmeye gerek yok; çünkü bu değerler, ilgili html etiketleri için önceden tanımlanmış değerler.</p>
+    <h4>HTML5 şartname linkleri</h4>
     <ul>
-      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-link-element">Using link</a></li>
-      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-style-element">Using style</a></li>
-      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/scripting-1.html#the-script-element">Using script</a></li>
+      <li><code>link</code> <a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-link-element">kullanımı</a></li>
+      <li><code>style</code> <a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-style-element">kullanımı</a></li>
+      <li><code>script</code> <a href="http://www.w3.org/TR/2011/WD-html5-20110525/scripting-1.html#the-script-element">kullanımı</a></li>
     </ul>
   </div>
   <div class="col">

@@ -4,4 +4,4 @@ url:           http://hayatbiralem.com/kod-rehberi
 
 markdown:      rdiscount
 permalink:     pretty
-pygments:      true
+highlighter:   pygments
