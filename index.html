@@ -149,8 +149,8 @@ layout: default
 
 <div class="section" id="html-oznitelik-siralamasi">
   <div class="col">
-    <h3>Attribute order</h3>
-    <p>HTML attributes should come in this particular order for easier reading of code.</p>
+    <h3>Öznitelik sıralaması</h3>
+    <p>Kodun okunurluğunu artırmak için HTML öznitelikleri bu belirli sırada gelmelidir.</p>
     <ul>
       <li><code>class</code></li>
       <li><code>id</code>, <code>name</code></li>
@@ -160,6 +160,7 @@ layout: default
       <li><code>aria-*</code>, <code>role</code></li>
     </ul>
     <p>Classes make for great reusable components, so they come first. Ids are more specific and should be used sparingly (e.g., for in-page bookmarks), so they come second.</p>
+    <p><code>class</code> özniteliği, yeniden kullanılabilir bileşenler yapar, bu nedenle önce gelir. <code>id</code> özniteliği ise daha spesifiktir ve daha az kullanılmalıdır (örneğin sayfa içinde yer imi tanımlarken), bu nedenle ikinci sıradadır.</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/attribute-order.html %}{% endhighlight %}
