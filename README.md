@@ -2,7 +2,7 @@
 
 Kod Rehberi, esnek, uzun ömürlü ve sürdürülebilir HTML ve CSS standartlarını belgelemek için oluşturulmuş bir projedir. Her ölçekte projeler üzerinde yıllardır kod yazmanın getirdiği tecrübeden beslenir. Hepsi burada yazılanlardan ibaret değil ama bu bir başlangıç.
 
-**[Okumaya başla ☞](http://hayatbiralem.com/kod-rehberi)**
+**[Okumaya başla ☞](http://kod-rehberi.hayatbiralem.com)**
 
 ---
 
