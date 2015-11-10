@@ -222,14 +222,14 @@ layout: default
       <li>Daha doğru hata raporlaması için her bir tanımlama, kendi satırında olmalıdır.</li>
       <li>Tüm tanımlamaları noktalı virgül ile bitirin. Son tanımlamada kullanılacak olan noktalı virgül isteğe bağlıdır ama kullanmazsanız kodunuz hataya sebep olmaya daha meyilli hale gelir.</li>
       <li>Virgülle ayrılan değerler, virgülden sonra bir boşluk bırakılarak yazılmalıdır (örneğin <code>box-shadow</code>).</li>
-      <li>Don't include spaces after commas <em>within</em> <code>rgb()</code>, <code>rgba()</code>, <code>hsl()</code>, <code>hsla()</code>, or <code>rect()</code> values. This helps differentiate multiple color values (comma, no space) from multiple property values (comma with space).</li>
-      <li>Don't prefix property values or color parameters with a leading zero (e.g., <code>.5</code> instead of <code>0.5</code> and <code>-.5px</code> instead of <code>-0.5px</code>).</li>
-      <li>Lowercase all hex values, e.g., <code>#fff</code>. Lowercase letters are much easier to discern when scanning a document as they tend to have more unique shapes.</li>
-      <li>Use shorthand hex values where available, e.g., <code>#fff</code> instead of <code>#ffffff</code>.</li>
-      <li>Quote attribute values in selectors, e.g., <code>input[type="text"]</code>. <a href="http://mathiasbynens.be/notes/unquoted-attribute-values#css">They’re only optional in some cases</a>, and it’s a good practice for consistency.</li>
-      <li>Avoid specifying units for zero values, e.g., <code>margin: 0;</code> instead of <code>margin: 0px;</code>.</li>
+      <li><code>rgb()</code>, <code>rgba()</code>, <code>hsl()</code>, <code>hsla()</code> ve <code>rect()</code> <em>komutları içinde</em> boşluk kullanmayın. Bu kullanım, virgülle ayrılan değerler içindeki (virgülsüz) renk tanımlamalarını ayırt etmekte yardımcı olur.</li>
+      <li>Ondalıklı Özellik değerlerinin başında sıfır kullanmayın (örneğin <code>0.5</code> yerine <code>.5</code> ve <code>-0.5px</code> yerine de <code>-.5px</code> kullanın).</li>
+      <li>Bütün onaltılık karakterleri küçük harfle yazın; örneğin <code>#fff</code>. Küçük harfler daha benzersiz olma eğiliminde olduklarından, belgeyi tararken ayırt etmek çok daha kolay olur.</li>
+      <li>Mümkün olduğunda onaltılık değerleri kısa formatta kullanın; örneğin <code>#ffffff</code> yerine <code>#fff</code> kullanın.</li>
+      <li>Seçicilerin içinde kullanılan öznitelik değerlerini çift tırnak içinde alın; örneğin <code>input["type=text"]</code>. <a href="http://mathiasbynens.be/notes/unquoted-attribute-values#css">Çüft tırnak kullanımı sadece bazı durumlarda seçime bağlıdır</a>, tutarlılık için  her zaman çift tırnak kullanmak iyi bir uygulamadır.</li>
+      <li>Sıfıra eşit olan değerlerde birim belirtmekten kaçının; örneğin <code>marhin: 0px;</code> yerine <code>margin: 0;</code> kullanın.</li>
     </ul>
-    <p>Questions on the terms used here? See the <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Syntax">syntax section of the Cascading Style Sheets article</a> on Wikipedia.</p>
+    <p>Kafanızda burada kullanılan terimlerle alakalı soru işaretleri mi var? Vikipedi'deki <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Syntax">Cascading Style Sheets makalesinin Syntax bölümüne</a> bakın.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/syntax.css %}{% endhighlight %}
