@@ -238,17 +238,17 @@ layout: default
 
 <div class="section" id="css-tanimlama-sirasi">
   <div class="col">
-    <h3>Declaration order</h3>
-    <p>Related property declarations should be grouped together following the order:</p>
+    <h3>Tanımlama sırası</h3>
+    <p>İlişkili özellik tanımlamaları aşağıdaki sırayla gruplanmalıdır:</p>
     <ol>
-      <li>Positioning</li>
+      <li>Posizyonlama</li>
       <li>Box model</li>
-      <li>Typographic</li>
-      <li>Visual</li>
+      <li>Tipografi</li>
+      <li>Görsellik</li>
     </ol>
-    <p>Positioning comes first because it can remove an element from the normal flow of the document and override box model related styles. The box model comes next as it dictates a component's dimensions and placement.</p>
-    <p>Everything else takes place <em>inside</em> the component or without impacting the previous two sections, and thus they come last.</p>
-    <p>For a complete list of properties and their order, please see <a href="http://twitter.github.com/recess">Recess</a>.</p>
+    <p>Pozisyonlama önce gelir, çünkü bir eleman pozisyonlandığında ilgili element, dokümanın normal sıralamasından çıkarılabilir ve bu da box model ile ilişkili stillerin yeniden hesaplanmasına neden olur. Sonrasında box model, bileşenin boyutlarını ve konumunu netleştirmek için gelir.</p>
+    <p>Bileşenin içinde yer alan diğer tüm özellikler önceki iki bölümü (pozisyonlama ve box model) etkilemeden en sona eklenir.</p>
+    <p>Özelliklerin ve özellik sıralamalarının tam bir listesi için lütfen <a href="http://twitter.github.com/recess">Recess</a>'e bakın.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/declaration-order.css %}{% endhighlight %}
