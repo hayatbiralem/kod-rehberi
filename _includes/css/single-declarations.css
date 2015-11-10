@@ -1,9 +1,9 @@
-/* Single declarations on one line */
+/* Tek tanımlama, tek satır */
 .span1 { width: 60px; }
 .span2 { width: 140px; }
 .span3 { width: 220px; }
 
-/* Multiple declarations, one per line */
+/* Birden fazla tanımlama, satır başına bir tanım */
 .sprite {
   display: inline-block;
   width: 16px;
