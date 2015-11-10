@@ -257,14 +257,14 @@ layout: default
 
 <div class="section" id="css-import-kullanmayin">
   <div class="col">
-    <h3>Don't use <code>@import</code></h3>
-    <p>Compared to <code>&lt;link&gt;</code>s, <code>@import</code> is slower, adds extra page requests, and can cause other unforeseen problems. Avoid them and instead opt for an alternate approach:</p>
+    <h3><code>@import</code> kullanmayın</h3>
+    <p><code>&lt;link&gt;</code> ile karşılaştırıldığında, <code>@import</code> yavaştır, ekstra sorgu gerektirir ve beklenmeyen sorunlara sebep olabilir. Bunlardan kaçınmak için farklı bir yaklaşım tercih edin:</p>
     <ul>
-      <li>Use multiple <code>&lt;link&gt;</code> elements</li>
-      <li>Compile your CSS with a preprocessor like Sass or Less into a single file</li>
-      <li>Concatenate your CSS files with features provided in Rails, Jekyll, and other environments</li>
+      <li>Birden fazla <code>&lt;link&gt;</code> elemanı kullanın</li>
+      <li>Sass ve Less gibi bir ön işlemci kullanarak CSS'inizi tek bir dosyada birleştirin</li>
+      <li>Rails, Jekyll veya diğer ortamlarda sunulan özelliklerle CSS dosyalarınızı bir düzene sokun</li>
     </ul>
-    <p>For more information, <a href="http://www.stevesouders.com/blog/2009/04/09/dont-use-import/">read this article by Steve Souders</a>.</p>
+    <p>Daha fazla bilgi için <a href="http://www.stevesouders.com/blog/2009/04/09/dont-use-import/">Steve Souders'ın makalesini okuyun</a>.</p>
   </div>
   <div class="col">
     {% highlight html %}{% include css/import.html %}{% endhighlight %}
